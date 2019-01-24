@@ -1,0 +1,139 @@
+/*------globals-----*/
+body,html{
+	padding: 0px;
+	margin:0px;
+}
+
+.form-width{
+	width:60%;
+	margin:auto;
+}
+
+#main-content{
+ 	height:100vh;
+}
+
+/*----navbar----*/
+.navbar nav{
+	width:100%;
+}
+
+/*----pills----*/
+.tab-list li{
+	display: block;
+	width:200px;
+}
+
+.tab-list li a{
+	color:#d0d0d8;
+}
+
+/*---------------------------------------------------*/
+
+/*------------login form----------*/
+.login-form{
+	width:40%;
+	padding-top:70px;
+	color:#fff;
+}
+
+.login-form form h1{
+	text-align: center;
+	font-size: 80px;
+	color:#fff;
+	}
+
+
+/*-------layout page-------*/
+ /*--------sidebar-------*/
+ .sidebar-wrapper{
+	height:100vh;
+	width:17%;	
+	position: fixed;
+	background-color:#252526;
+ }
+
+ .profile-bar{
+	height: 160px;
+
+ }
+
+ .profile-bar .icon img	{
+ 	width:100px;
+ 	height:100px;
+ 	border-radius:50%;
+	margin:10px 30px 5px 60px;
+	box-sizing: border-box;
+ 	box-shadow:1px 3px 25px #000;
+ }
+
+ .profile-info{
+ 	text-align: center;
+ }
+
+ .vertical-nav{
+ 	margin-top:30px;
+ }
+
+.vertical-nav li{
+	display: block;
+}
+
+.vertical-nav li a{
+	color:#d0d0d8;
+	font-size:20px;
+	padding:10px;
+	margin-left:5px;
+}
+
+.vertical-nav li i{
+	margin-left:7px;
+}
+
+.vertical-nav li a:hover{
+	color:#a3224d;
+}
+
+/*---------------navbar---------*/
+
+
+/*--------dashboard------*/
+.dash-wrapper{
+	height:100px;
+	width:90%;
+	margin:auto;
+	height:auto;
+	margin-top:20px;
+}
+
+.dash-wrapper .flex-container{
+	display: flex;
+	border-bottom:1px solid #b8babc;
+	padding-bottom:10px;
+}
+
+.dash-wrapper .flex-container > div{
+	margin:10px;
+}
+
+.dash-wrapper .flex-container .card{	
+	width:200px;
+	height:100px;
+	margin:10px;
+	padding:0;
+	font-family: Helvetica;
+	color:#fff;
+
+}
+
+.dash-wrapper .flex-container .card h6{
+	text-align:center;
+	font-size:25px;
+	padding:5px 0px 5px 0px;
+}
+
+.dash-wrapper .flex-container .card-body{
+	display: inline-block;
+	padding:0;
+}
+/*-----------------------*/
